@@ -9,5 +9,5 @@ int main(int argc, char** argv)
 	int input;
 	cin >> input;
 
-	cout << (input + 1)*(input + 1);
+	cout << (input + 1)*(input + 12);
 }
