@@ -15,6 +15,7 @@ int main(int argc, char **argv) {
 		for (int i = 1; i <= 100; ++i) {
 		
 		while (i <= 100) {
+			
 			if (i % 3 != 0) {
 				std::cout << i << std::endl;
 
@@ -22,7 +23,13 @@ int main(int argc, char **argv) {
 			else if (i % 3 == 0) {
 				std::cout << "Fizz" << std::endl;
 			}
-			
+
+			if (i % 5 != 0) {
+				std::cout << i << std::endl;
+			}
+			else if (i % 5 == 0) {
+				std::cout << "Buzz" << std::endl;
+			}
 
 			
 			++i;
