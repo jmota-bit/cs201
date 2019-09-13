@@ -11,5 +11,7 @@ This program takes a number that a user inputed and performs three different act
 
 int main() 
 {
-	std::cout << "Print this";
+	int num;
+
+	std::cin << num <<
 }
