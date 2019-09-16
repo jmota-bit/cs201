@@ -17,9 +17,12 @@ void diamond(int in) {
 	for (int line = 0; line < in; ++line) {
 		
 		for (int dot = 1; dot <= (line * -1 + in - 1); dot++) {
-			cout << " ";
+			cout << ".";
 		}
+		
+		for (int line = 0; line <= (line * 2 - 1); line++) {
 			cout << "#" << endl;
+		}
 
 		
 	}
