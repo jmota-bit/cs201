@@ -8,7 +8,13 @@ This project performs two functions: one is to take an integer the user inputed 
 */
 
 #include <iostream>
+using std::cout;
+using std::cin;
 
 int main() {
-	std::cout << "Compile";
+	cout << "This program makes a diamond sized off of the integer inputed. Please enter a positive integer." << std::endl;
+	
+	int input;
+	cin >> input;
+	
 }
