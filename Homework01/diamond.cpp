@@ -17,9 +17,9 @@ void diamond(int in) {
 	for (int line = 0; line < in; ++line) {
 		
 		for (int dot = 1; dot <= (line * -1 + in - 1); dot++) {
-			cout << ".";
+			cout << " ";
 		}
-		cout << "#";
+			cout << "#"<<endl;
 		
 	}
 	
@@ -32,5 +32,8 @@ int main() {
 	cin >> input;
 	diamond(input);
 
+	cout << "This program converts miles/hour to kilometers/hour. Please enter a speed:" << endl;
+	int inp;
+	cin >> inp;
 }
 
