@@ -18,7 +18,7 @@
     <ClCompile Include="diamond.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mphtokph.cpp">
+    <ClCompile Include="mileskm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

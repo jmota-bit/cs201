@@ -8,22 +8,23 @@ This project performs two functions: one is to take an integer the user inputed 
 */
 
 #include <iostream>
+
 using std::cout;
 using std::cin;
 using std::endl;
 
 //This function takes the user input and draws the diamond.
 void diamond(int in) {
-	for (int line = 0; line < in; ++line) {
-		
+	for (int line = 0; line <= in; ++line) {
+
 		for (int dot = 1; dot <= (line * -1 + in - 1); dot++) {
 			cout << " ";
 		}
-			cout << "#"<<endl;
-		
+		cout << "#" << endl;
 	}
-	
 }
+
+
 
 int main() {
 	cout << "This program makes a diamond sized off of the integer inputed. Please enter a positive integer." << endl;
@@ -32,8 +33,9 @@ int main() {
 	cin >> input;
 	diamond(input);
 
-	cout << "This program converts miles/hour to kilometers/hour. Please enter a speed:" << endl;
+	cout << "This program converts miles to kilometers. Please enter a number of miles: " << endl;
 	int inp;
 	cin >> inp;
+	Conv(inp);
 }
 
