@@ -8,31 +8,16 @@ This project performs two functions: one is to take an integer the user inputed 
 */
 
 #include <iostream>
+#include "conv.h"
+#include "diamond.h"
 
 using std::cout;
 using std::cin;
 using std::endl;
 
-//This function takes the user input and draws the diamond.
-void diamond(int in) {
-	for (int line = 0; line <= in; ++line) {
 
-		for (int dot = 1; dot <= (line * -1 + in - 1); dot++) {
-			cout << " ";
-		}
-		
-		cout << "#" << endl;
-	}
-}
 
-//This function converts miles to kilometers.
-void Conv(int miles) {
 
-	double kilom;
-	kilom = (miles * 1.609);
-
-	cout << miles << " miles = " << kilom << " kilometers" << endl;
-}
 
 
 int main() {
