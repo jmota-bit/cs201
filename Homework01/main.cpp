@@ -16,10 +16,6 @@ using std::cin;
 using std::endl;
 
 
-
-
-
-
 int main() {
 	cout << "This program makes a diamond sized off of the integer inputed. Please enter a positive integer." << endl;
 	
