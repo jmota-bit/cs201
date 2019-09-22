@@ -3,13 +3,13 @@
 #include <string>
 #include <algorithm>
 
-int main(int argc, char **argv) 
+int main(int argc, char** argv)
 {
-	std::vector<std::string> names:
-	for int(int i = 0; i < 10; i++) {
+	std::vector<std::string> names;
+	for (int i = 0; i < 10; i++) {
 		std::string name;
 		std::cout << "Please enter a name: ";
-		std::getline(cin, name);
+		std::getline(std::cin, name);
 		names.push_back(name);
 	}
 	return 0;
