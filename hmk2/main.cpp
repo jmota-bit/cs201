@@ -3,14 +3,17 @@
 #include <string>
 #include <algorithm>
 
+#include "intio.h"
+using namespace std;
+
 int main(int argc, char** argv)
 {
-	std::vector<std::string> names;
-	for (int i = 0; i < 10; i++) {
-		std::string name;
-		std::cout << "Please enter a name: ";
-		std::getline(std::cin, name);
-		names.push_back(name);
-	}
+	InputNames();
+	
+	bool DoesNameExist(const string nameTofind, const vector<string> & names);
+
+	void PrintNames(const vector<string> & names);
+
+	
 	return 0;
 }
