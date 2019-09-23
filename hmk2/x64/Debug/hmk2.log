@@ -1,0 +1,3 @@
+﻿  main.cpp
+  D:\Users\jcmota\source\repos\jmota-bit\cs201\hmk2\intio.h(38) : warning C4715: 'DoesNameExist': not all control paths return a value
+  hmk2.vcxproj -> D:\Users\jcmota\source\repos\jmota-bit\cs201\hmk2\x64\Debug\hmk2.exe

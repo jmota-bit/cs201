@@ -6,12 +6,20 @@
 #include "intio.h"
 using namespace std;
 
+
+bool DoesNameExist(const string & nameTofind, const vector<string> & names);
+
+
 int main(int argc, char** argv)
 {	
+	vector<string> names;
+
+	InputNames(names);
 	
-	InputNames();
+	string theName;
+	cout << "Which name would you like to check?: ";
+	getline(cin, theName);
+
+	DoesNameExist(theName, names);
 	
-	bool DoesNameExist(const string & nameTofind, const vector<string> & names);
-	
-	return 0;
 }
