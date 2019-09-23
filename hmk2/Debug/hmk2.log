@@ -1,2 +1,4 @@
 ﻿  main.cpp
+C:\Users\julio\source\repos\jmota-bit\cs201\hmk2\intio.h(25,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\julio\source\repos\jmota-bit\cs201\hmk2\intio.h(38): warning C4715:  'DoesNameExist': not all control paths return a value
   hmk2.vcxproj -> C:\Users\julio\source\repos\jmota-bit\cs201\hmk2\Debug\hmk2.exe
