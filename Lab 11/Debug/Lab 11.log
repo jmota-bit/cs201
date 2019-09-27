@@ -1,0 +1,8 @@
+﻿  lowerCaseMain.cpp
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(17,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,18): error C2440:  '=': cannot convert from 'std::string' to '_Ty'
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,18): error C2440:         with
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,18): error C2440:         [
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,18): error C2440:             _Ty=char
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,18): error C2440:         ]
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 11\lowerCaseMain.cpp(19,13): message :  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
