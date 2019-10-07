@@ -18,6 +18,8 @@ void message(std::vector<std::string>& words);
 
 int main() {
 
+	std::vector<std::string> words;
+	
 	std::cout << "-------------------Required--------------------------"
 		<< std::endl;
 	//TODO Declare a vector of strings named "words"
