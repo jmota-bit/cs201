@@ -1,0 +1,3 @@
+﻿  floating_point_main.cpp
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 19\floating_point_main.cpp(22,33): error C2275:  'size_t': illegal use of this type as an expression
+D:\Users\jcmota\Documents\GitHub\cs201\Lab 19\floating_point_main.cpp(22): message :  see declaration of 'size_t'
